@@ -1,7 +1,7 @@
-const imageSet1 = ["t1.jpg", "t1a.jpg", "t1b.jpg"];
-const imageSet2 = ["t2.jpg", "t2a.jpg", "t2b.jpg"];
-const imageSet3 = ["t3.jpg", "t3a.jpg", "t3b.jpg"];
-const imageSet4 = ["t4.jpg", "t4a.jpg", "t4b.jpg"];
+const imageSet1 = ["t1.jpg", "t1a.jpg", "t1b.jpg", "ab1.jpg"];
+const imageSet2 = ["t2.jpg", "t2a.jpg", "t2b.jpg", "ab2.jpeg"];
+const imageSet3 = ["t3.jpg", "t3a.jpg", "t3b.jpg", "ab3.jpeg"];
+const imageSet4 = ["t4.jpg", "t4a.jpg", "t4b.jpg", "ab4.avif"];
 
 const imageElement1 = document.getElementById("image1");
 const imageElement2 = document.getElementById("image2");
