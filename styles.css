@@ -1,0 +1,22 @@
+.image-wrapper {
+    width: 100%; /* Adjust width to be responsive */
+    max-width: 500px; /* Maximum width */
+    height: auto; /* Auto height to maintain aspect ratio */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensures the entire image fits inside the container */
+}
+
+.btn {
+    width: 100%; /* Make buttons full width on small screens */
+    max-width: 200px; /* Set a max-width for larger screens */
+}
